@@ -6,7 +6,7 @@ A responsive, static portfolio website for **Rushikesh Tayare**, built with HTML
 
 The intended GitHub Pages address is:
 
-**https://RushikeshTayare.github.io**
+**https://RushikeshTayare.github.io/DevOps-Portfolio-Website/**
 
 That address works when this repository is named `RushikeshTayare.github.io` (GitHub Pages user site). If you choose a different repository name, GitHub Pages uses `https://RushikeshTayare.github.io/DevOps-Portfolio-Website/` instead.
 
