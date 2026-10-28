@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="The DevOps portfolio of Rushikesh Tayare — learning Linux, AWS, Git, and cloud automation.">
+  <title>Rushikesh Tayare | DevOps Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Rushikesh Tayare home"><span class="brand-mark">&gt;_</span><span>rushikesh<span class="brand-muted">.dev</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a>
+        <a class="nav-cta" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> LEARNING IN PUBLIC · INDIA</p>
+        <h1>Building my path<br>to the <span class="gradient-text">cloud.</span></h1>
+        <p class="hero-lede">Hi, I’m <strong>Rushikesh Tayare</strong> — an aspiring DevOps engineer learning to make software delivery reliable, repeatable, and a little less stressful.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↓</span></a><a class="text-link" href="https://github.com/RushikeshTayare" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Currently learning <b>Linux · AWS · Git</b></span></div>
+      </div>
+      <div class="terminal-wrap" aria-label="A sample terminal showing a successful deployment">
+        <div class="terminal-glow"></div>
+        <div class="terminal">
+          <div class="terminal-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>deploy.sh</span><span class="terminal-lock">⌑</span></div>
+          <div class="terminal-body"><p class="terminal-muted"># a small step, shipped</p><p><span class="prompt">rushikesh@devbox</span>:<span class="path">~/portfolio</span>$ git status</p><p class="terminal-green">On branch main</p><p class="terminal-green">working tree clean</p><p class="terminal-spacer"><span class="prompt">rushikesh@devbox</span>:<span class="path">~/portfolio</span>$ ./deploy.sh</p><p><span class="terminal-blue">▶</span> Building static site...</p><p><span class="terminal-blue">▶</span> Publishing to GitHub Pages...</p><p class="terminal-success"><span>✓</span> Deployment complete</p><p class="terminal-url">↳ rushikeshtayare.github.io <span class="cursor"></span></p></div>
+          <div class="terminal-footer"><span><i class="tiny-dot"></i> all systems learning</span><span>UTF-8&nbsp; · &nbsp;bash</span></div>
+        </div>
+        <div class="float-card"><span class="float-icon">⌘</span><span><b>Ship small.</b><small>Learn every day.</small></span><span class="float-spark">↗</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about"><div class="shell two-column">
+      <div><p class="eyebrow">01 / ABOUT ME</p><h2>Curious by nature.<br><span class="muted-heading">Hands-on by choice.</span></h2></div>
+      <div class="about-content"><p>I’m at the beginning of my DevOps journey. I’ve started with GitHub in my institute and I’m now building practical foundations in Linux and AWS through small, documented projects.</p><p>This portfolio is one of those projects: a simple website, version controlled with Git, and deployed with GitHub Pages. I’m focused on learning the why behind each step, not just copying commands.</p><div class="about-facts"><div><span class="fact-icon">⌁</span><span><b>My approach</b><small>Build · document · improve</small></span></div><div><span class="fact-icon">◎</span><span><b>Open to</b><small>Learning and collaboration</small></span></div></div></div>
+    </div></section>
+
+    <section class="section skills-section" id="skills"><div class="shell"><div class="section-heading"><div><p class="eyebrow">02 / TOOLKIT</p><h2>Tools I’m working with.</h2></div><p class="section-aside">A growing toolkit, built one<br>concept at a time.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon icon-git">⌘</span><span class="skill-index">01</span></div><h3>Git &amp; GitHub</h3><p>Version control, branches, commits, and hosting projects with GitHub Pages.</p><div class="skill-tags"><span>Git</span><span>GitHub</span><span>Pages</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon icon-linux">▰</span><span class="skill-index">02</span></div><h3>Linux</h3><p>Building confidence with the terminal, filesystems, permissions, and shell basics.</p><div class="skill-tags"><span>CLI</span><span>Bash basics</span><span>In progress</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon icon-aws">☁</span><span class="skill-index">03</span></div><h3>AWS</h3><p>Exploring cloud fundamentals and the building blocks behind modern infrastructure.</p><div class="skill-tags"><span>Cloud basics</span><span>AWS</span><span>In progress</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon icon-web">&lt;/&gt;</span><span class="skill-index">04</span></div><h3>Web foundations</h3><p>Creating clean, responsive interfaces with the core building blocks of the web.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      </div>
+      <p class="learning-note"><span>✳</span> I’m actively learning these skills. This portfolio will grow as I do.</p>
+    </div></section>
+
+    <section class="section projects-section" id="projects"><div class="shell"><div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Small projects. Real progress.</h2></div><p class="section-aside">Every project is a chance to<br>practice the fundamentals.</p></div>
+      <article class="project-card"><div class="project-visual"><div class="project-grid-bg"></div><div class="browser-window"><div class="browser-top"><span></span><span></span><span></span><i></i></div><div class="browser-content"><div class="mini-nav"><b>RT<span>.</span></b><i></i><i></i><i></i></div><div class="mini-copy"><small>HELLO, WORLD</small><strong>My journey<br>to the cloud.</strong><em></em><em></em><button></button></div><div class="mini-orb"></div></div></div><div class="visual-label">01 &nbsp;—&nbsp; LIVE PROJECT</div></div>
+        <div class="project-info"><p class="project-type"><span class="status-dot"></span> PERSONAL PROJECT</p><h3>DevOps Portfolio Website</h3><p>A responsive portfolio built with plain HTML, CSS, and JavaScript, then published with GitHub Pages. This project is also where I’m practicing a clean Git workflow and writing useful documentation.</p><div class="project-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div><div class="project-links"><a href="https://github.com/RushikeshTayare" target="_blank" rel="noreferrer">View source <span>↗</span></a><a href="https://RushikeshTayare.github.io" target="_blank" rel="noreferrer">Visit website <span>↗</span></a></div></div>
+      </article>
+      <div class="coming-soon"><span class="coming-icon">＋</span><span><b>More projects are on the way.</b><small>Next up: documenting Linux and AWS fundamentals.</small></span><span class="coming-status">IN PROGRESS</span></div>
+    </div></section>
+
+    <section class="section journey-section" id="journey"><div class="shell two-column journey-layout"><div><p class="eyebrow">04 / THE ROAD AHEAD</p><h2>One command<br>at a time.</h2><p class="journey-intro">I believe good DevOps starts with strong fundamentals. Here’s what I’m focusing on next.</p></div><div class="timeline"><div class="timeline-item done"><span class="timeline-marker">✓</span><div><small>FOUNDATIONS</small><h3>Git &amp; GitHub</h3><p>Learning version control and publishing this portfolio.</p></div><span class="timeline-state">STARTED</span></div><div class="timeline-item active"><span class="timeline-marker">02</span><div><small>IN PROGRESS</small><h3>Linux essentials</h3><p>Getting comfortable working in the shell and understanding the system.</p></div><span class="timeline-state">NOW</span></div><div class="timeline-item"><span class="timeline-marker">03</span><div><small>UP NEXT</small><h3>AWS cloud basics</h3><p>Learning core cloud concepts and practicing safely with starter projects.</p></div><span class="timeline-state">SOON</span></div><div class="timeline-item"><span class="timeline-marker">04</span><div><small>FUTURE</small><h3>Automation &amp; CI/CD</h3><p>Putting the pieces together to automate a simple delivery workflow.</p></div><span class="timeline-state">AHEAD</span></div></div></div></section>
+
+    <section class="contact-section" id="contact"><div class="shell contact-inner"><div><p class="eyebrow">05 / SAY HELLO</p><h2>Good things start<br>with a <span class="gradient-text">conversation.</span></h2><p>I’m always glad to connect with fellow learners and people in the DevOps community.</p><a class="button button-primary" href="https://github.com/RushikeshTayare" target="_blank" rel="noreferrer">Find me on GitHub <span>↗</span></a></div><div class="contact-aside"><span class="contact-orbit orbit-one"></span><span class="contact-orbit orbit-two"></span><span class="contact-symbol">&lt;hello /&gt;</span><small>OPEN TO LEARNING<br>AND COLLABORATION</small></div></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><a class="brand" href="#home"><span class="brand-mark">&gt;_</span><span>rushikesh<span class="brand-muted">.dev</span></span></a><span>Designed &amp; built with curiosity. <span class="footer-heart">♥</span></span><span>© <span id="year">2026</span> Rushikesh Tayare</span><a class="back-top" href="#home" aria-label="Back to top">↑</a></div></footer>
+</body>
+</html>
