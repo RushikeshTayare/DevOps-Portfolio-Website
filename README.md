@@ -15,7 +15,7 @@ That address works when this repository is named `RushikeshTayare.github.io` (Gi
 - Responsive layout for desktop, tablet, and mobile
 - About, toolkit, GitHub projects, and contact sections
 - Accessible mobile navigation and reduced-motion support
-- Responsive project cards linking to all five public GitHub repositories
+- Responsive project cards linking to five GitHub repositories and one LinkedIn project
 - GitHub profile photo and GitHub and LinkedIn profile links
 - No framework, build step, or dependencies
 - MIT licensed
