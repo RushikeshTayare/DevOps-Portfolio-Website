@@ -1,0 +1,208 @@
+.hero-profile {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.profile-photo {
+  display: block;
+  width: 82px;
+  height: 82px;
+  flex: 0 0 82px;
+  border: 2px solid rgba(98, 229, 210, .72);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 6px rgba(98, 229, 210, .08), 0 12px 32px rgba(0, 0, 0, .28);
+}
+
+.hero-profile .eyebrow {
+  margin-bottom: 7px;
+}
+
+.profile-location {
+  margin: 0;
+  color: #a0adc5;
+  font-size: 11px;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 5.2vw, 64px);
+  letter-spacing: -3.2px;
+}
+
+.hero-note {
+  text-transform: uppercase;
+}
+
+.hero-note b {
+  text-transform: none;
+}
+
+.projects-profile-link {
+  color: var(--cyan);
+}
+
+.projects-profile-link span {
+  padding-left: 5px;
+}
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.repo-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: linear-gradient(145deg, rgba(22, 32, 53, .92), rgba(16, 24, 41, .8));
+  transition: border-color .2s, transform .2s, background .2s;
+}
+
+.repo-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(98, 229, 210, .38);
+  background: linear-gradient(145deg, rgba(25, 38, 62, .96), rgba(16, 24, 41, .88));
+}
+
+.repo-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.repo-icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 7px;
+  font-size: 17px;
+}
+
+.icon-docker {
+  color: #87cfff;
+  background: rgba(88, 178, 235, .13);
+}
+
+.repo-category {
+  color: #8290aa;
+  font: 9px var(--mono);
+  letter-spacing: .8px;
+  text-align: right;
+}
+
+.repo-card h3 {
+  margin: 0 0 9px;
+  color: var(--text);
+  font-size: 15px;
+  letter-spacing: -.3px;
+}
+
+.repo-card > p {
+  flex: 1;
+  margin: 0 0 18px;
+  color: #929fb7;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.repo-card .project-stack {
+  min-height: 26px;
+  margin-bottom: 19px;
+}
+
+.repo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.repo-link {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 6px;
+  color: var(--cyan);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.repo-link:hover,
+.projects-profile-link:hover {
+  color: #b6fff1;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.button-outline {
+  border: 1px solid rgba(98, 229, 210, .42);
+  color: var(--cyan);
+  transition: background .2s, border-color .2s;
+}
+
+.button-outline:hover {
+  border-color: var(--cyan);
+  background: rgba(98, 229, 210, .08);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+@media (max-width: 900px) {
+  .repo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-profile {
+    gap: 14px;
+  }
+
+  .profile-photo {
+    width: 68px;
+    height: 68px;
+    flex-basis: 68px;
+  }
+
+  .profile-location {
+    max-width: 240px;
+    font-size: 10px;
+  }
+
+  .hero h1 {
+    font-size: clamp(40px, 11vw, 54px);
+    letter-spacing: -2.7px;
+  }
+
+  .repo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

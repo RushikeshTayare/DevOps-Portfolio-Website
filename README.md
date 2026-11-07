@@ -13,8 +13,10 @@ That address works when this repository is named `RushikeshTayare.github.io` (Gi
 ## Features
 
 - Responsive layout for desktop, tablet, and mobile
-- About, toolkit, projects, learning journey, and contact sections
+- About, toolkit, GitHub projects, and contact sections
 - Accessible mobile navigation and reduced-motion support
+- Responsive project cards linking to all six public GitHub repositories
+- GitHub profile photo and GitHub and LinkedIn profile links
 - No framework, build step, or dependencies
 - MIT licensed
 
@@ -23,7 +25,8 @@ That address works when this repository is named `RushikeshTayare.github.io` (Gi
 ```text
 devops-portfolio-website/
 ├── index.html       # Page content and metadata
-├── styles.css       # Responsive styling
+├── style.css        # Base responsive styling
+├── portfolio.css    # Portfolio and project-card styling
 ├── script.js        # Mobile navigation and current year
 ├── README.md        # Setup, publishing, and maintenance guide
 ├── LICENSE          # MIT License
@@ -79,12 +82,11 @@ git push
 
 Use `git add .` instead when you intentionally want to include all new and changed files. Check the **Actions** tab on GitHub if a Pages deployment does not complete.
 
-## Personalize before sharing
+## Portfolio content
 
-- Update the text, skills, journey, and project details in `index.html` so they reflect your actual experience.
-- The GitHub links currently point to `RushikeshTayare`. Replace them if the account name changes.
-- The portfolio deliberately uses GitHub as its contact link; no email address or other personal contact details were invented.
-- The preview image in the Projects section is drawn with CSS, so no image files are required.
+- Project cards in `index.html` represent the public repositories on the `RushikeshTayare` GitHub profile. Update the cards when adding repositories or changing project details.
+- The profile photo is loaded from the public GitHub avatar URL. It requires an internet connection.
+- GitHub and LinkedIn links point to the profiles supplied for this portfolio. No email address or other personal contact details are published.
 - Google Fonts are loaded from Google Fonts when a visitor has internet access. The site remains usable if those fonts cannot load.
 - Avoid publishing passwords, access tokens, private keys, or other secrets. GitHub Pages websites are publicly accessible.
 
