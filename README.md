@@ -27,6 +27,7 @@ devops-portfolio-website/
 ├── index.html       # Page content and metadata
 ├── style.css        # Base responsive styling
 ├── portfolio.css    # Portfolio and project-card styling
+├── favicon.svg      # Browser tab icon
 ├── script.js        # Mobile navigation and current year
 ├── README.md        # Setup, publishing, and maintenance guide
 ├── LICENSE          # MIT License
