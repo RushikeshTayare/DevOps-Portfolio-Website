@@ -206,3 +206,39 @@ button:focus-visible {
     transition-duration: .01ms !important;
   }
 }
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.brand-mark {
+  color: #61ebdd;
+  font-size: 23px;
+}
+
+.brand-name {
+  color: #f1f5ff;
+  font-size: 17px;
+  letter-spacing: -.5px;
+}
+
+.brand-divider {
+  color: #64748b;
+  font-weight: 400;
+}
+
+.brand-role {
+  color: #61ebdd;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.footer .brand-mark {
+  font-size: 23px;
+}
